@@ -1,5 +1,5 @@
-const API_KEY = 'AIzaSyBR_w14X4yuSFGcPGzDM]8PPnTReFQWtqI'; // Replace with your API key
-const PLACE_ID = 'ChIJEbPHg4w|wYcRg8qCqwcakuk'; // Replace with your Place ID
+const API_KEY = 'AIzaSyBR_w14X4yuSFGcPGzDMl8PPnTReFQWtqI'; // Replace with your API key
+const PLACE_ID = 'ChIJEbPHg4wlwYcRg8qCqwcakuk'; // Replace with your Place ID
 
 async function fetchReviews() {
     const response = await fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${PLACE_ID}&fields=name,rating,reviews&key=${API_KEY}`);
